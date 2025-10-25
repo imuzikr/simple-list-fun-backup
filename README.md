@@ -114,6 +114,8 @@ git push origin main
   - `VITE_SUPABASE_ANON_KEY`: Supabase anon key
 - "Redeploy" 클릭
 
+**참고:** Supabase anon key는 클라이언트에서 사용하도록 설계되었으며 Row Level Security로 보호됩니다. `netlify.toml`에서 시크릿 스캐닝을 비활성화했습니다.
+
 ### Option 2: Lovable
 
 Simply open [Lovable](https://lovable.dev/projects/5f4b960d-ae73-4694-8746-2791758e91d6) and click on Share -> Publish.

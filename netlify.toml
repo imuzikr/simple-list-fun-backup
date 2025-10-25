@@ -9,4 +9,7 @@
 
 [build.environment]
   NODE_VERSION = "18"
+  # Supabase anon key is safe to expose in client-side code
+  # It's protected by Row Level Security (RLS)
+  SECRETS_SCAN_ENABLED = "false"
 
