@@ -93,6 +93,29 @@ VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 ## How can I deploy this project?
 
+### Option 1: Netlify (추천)
+
+1. **GitHub에 푸시**
+```sh
+git push origin main
+```
+
+2. **Netlify에 배포**
+- [Netlify](https://app.netlify.com)에 로그인
+- "New site from Git" 클릭
+- GitHub 저장소 선택
+- Build settings는 자동으로 감지됩니다 (netlify.toml 사용)
+- "Deploy site" 클릭
+
+3. **환경 변수 설정**
+- Netlify 대시보드에서 "Site settings" → "Environment variables" 이동
+- 다음 환경 변수 추가:
+  - `VITE_SUPABASE_URL`: Supabase 프로젝트 URL
+  - `VITE_SUPABASE_ANON_KEY`: Supabase anon key
+- "Redeploy" 클릭
+
+### Option 2: Lovable
+
 Simply open [Lovable](https://lovable.dev/projects/5f4b960d-ae73-4694-8746-2791758e91d6) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lovable project?
