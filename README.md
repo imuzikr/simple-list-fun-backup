@@ -59,6 +59,37 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
+- Supabase (Backend & Database)
+
+## Features
+
+✅ **사용자 인증 (Authentication)**
+- 이메일/비밀번호 회원가입 및 로그인
+- 보호된 라우트 (Protected Routes)
+- 사용자별 데이터 격리
+- 자동 세션 관리
+
+✅ **할 일 관리 (Todo Management)**
+- 할 일 추가, 완료, 삭제 기능
+- 전체/활성/완료 필터링
+- 실시간 동기화 (여러 탭/디바이스 간 자동 동기화)
+- 사용자별 개인 할 일 목록
+
+✅ **Supabase 백엔드**
+- PostgreSQL 데이터베이스
+- Supabase Auth 인증
+- 실시간 Realtime 구독
+- Row Level Security (RLS) 적용
+- 자동 updated_at 타임스탬프
+
+## Environment Variables
+
+이 프로젝트를 실행하려면 `.env` 파일에 다음 환경 변수가 필요합니다:
+
+```env
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
 
 ## How can I deploy this project?
 
