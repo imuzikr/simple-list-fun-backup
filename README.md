@@ -120,6 +120,16 @@ git push origin main
 
 Simply open [Lovable](https://lovable.dev/projects/5f4b960d-ae73-4694-8746-2791758e91d6) and click on Share -> Publish.
 
+## Troubleshooting
+
+문제가 발생했나요? 자세한 해결 방법은 [트러블슈팅 가이드](./TROUBLESHOOTING.md)를 참고하세요.
+
+일반적인 문제:
+- 환경 변수 설정
+- Supabase 연결 오류
+- 인증 문제
+- Netlify 배포 오류
+
 ## Can I connect a custom domain to my Lovable project?
 
 Yes, you can!
